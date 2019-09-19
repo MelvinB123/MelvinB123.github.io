@@ -1,0 +1,145 @@
+body {
+    background-color: #ffffff;
+}
+
+#bottom, #top {
+    position: fixed;
+    width: 100%;
+    height: 20%, 80%;
+}
+
+#bottom {
+    background: #575656
+}
+
+#top {
+    background: #ffffff
+}
+
+h1 , h2 , h3, p {
+    font-family:"Bahnschrift";
+    text-indent: 10px;
+    color: #000000;
+}
+
+p {
+    color: #000000
+
+}
+li {
+    display: inline;
+    margin-left: 20px;
+}
+   
+a { 
+    color: #ffffff;
+    text-decoration:none;
+    text-shadow: 2xp 2xp 2xp #030303;
+}
+
+/*hover*/
+a:hover{
+    color:#979797;
+}
+
+/*images*/
+.img3{
+    float:left;
+}
+
+.img4{
+    float: left;
+}
+
+.imglogo2{
+    float: left;
+}
+
+.imgstappen{
+    align: center;
+}
+
+/*divs*/
+div{
+    width:700px;
+    height:100%;
+    background-color: #ffffff;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    text-align: center;
+    font-family:"Bahnschrift";
+}
+
+.div2{
+    width:700px;
+    height:100%;
+    background-color: #575757;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    text-align:left;
+    padding: 10px;
+    padding-bottom: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+ul li {font-variant: small-caps;}
+
+.button1 {
+    background-color:#ffffff;
+    border: 2px solid #ffffff;
+}
+
+h4 , h5{
+    font-family: "Bahnschrift";
+    text-indent: 10px;
+    color: #ffffff;
+}
+
+.poep{
+    align:left;
+    text-align:left;
+}
+
+
+.btn{
+   cursor:pointer;
+   display:inline-block;
+   padding:30px;
+   background: #94a657;
+   border-radius: 4px;
+   color: #fff;
+   text-transform:uppercase;
+   line-height:20px;
+   @include transition(box-shadow .25s ease);
+}
+
+.divgrijs{
+    width:700px;
+    height:100%;
+    background-color: #575757;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    text-align:left;
+    padding: 10px;
+}
+
+.divgrijs2{
+    width:700px;
+    height:100%;
+    background-color: #7a7a7a;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    text-align:center;
+    padding: 10px;
+}
+
+.pwittetekst{
+    color: #ffffff;
+    text-align: center;
+    font-family:"Bahnschrift";
+}
