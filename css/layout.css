@@ -109,39 +109,3 @@ div{
     text-align:left;
     padding: 10px;
 }
-
-.divgrijs2{
-    width:700px;
-    height:100%;
-    background-color: #7a7a7a;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:5px;
-    text-align:center;
-    padding: 10px;
-}
-
-/*knop*/
-/*knop met achtergrondkleur en rand dikte met kleur*/
-.button1 {
-    background-color:#ffffff;
-    border: 2px solid #ffffff;
-}
-
-.btn{
-   cursor:pointer;
-   display:inline-block;
-   padding:30px;
-   background: #94a657;
-   border-radius: 4px;
-   color: #fff;
-   text-transform:uppercase;
-   line-height:20px;
-   @include transition(box-shadow .25s ease);
-}
-
-/*?*/
-.poep{
-    align:left;
-    text-align:left;
-}
