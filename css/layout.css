@@ -5,6 +5,7 @@ body {
 }
 
 /*tekstkopjes*/
+/*hoofdkopjes en paragraaf kleur, lettertype en tekst inspringing*/
 h1 , h2 , h3, p {
     font-family:"Bahnschrift";
     text-indent: 10px;
@@ -18,25 +19,28 @@ h4 , h5{
 }
 
 /*paragraaf*/
+/*tekstkleur zwart paragraaf*/
 p {
     color: #000000
 }
 
 /*lijst*/
+/*lijst (gebruikt bij menu) met marge tussen kopjes*/
 li {
     display: inline;
     margin-left: 20px;
 }
-
+/*kleine letters in hoofdletters*/
 ul li {font-variant: small-caps;}
 
 /*hyperlink*/
+/*hyperlink naar iets, schaduw en kleur*/
 a { 
     color: #ffffff;
     text-decoration:none;
     text-shadow: 2xp 2xp 2xp #030303;
 }
-
+/*hyperlink met zwart als basiskleur*/
 .hover2 { 
     color: #000000;
     text-decoration:none;
@@ -44,11 +48,13 @@ a {
 }
 
 /*hover*/
+/*hyperlink veranderd in andere kleur als de curser op het kopje staat*/
 a:hover{
     color:#979797;
 }
 
 /*plaatjes*/
+/*plaatjes met aangegeven waar het plaatje moet verschijnen*/
 .img3{
     float:left;
 }
@@ -66,6 +72,8 @@ a:hover{
 }
 
 /*divisions*/
+/*alle specificaties voor de verschillende delen van de website zoals: de kleur, hoogte en breedte, achtergrondkleur, 
+marges naar een bepaalde kant, plaatsing van division en lettertype in deze divisie.*/
 div{
     width:700px;
     height:100%;
@@ -114,6 +122,7 @@ div{
 }
 
 /*knop*/
+/*knop met achtergrondkleur en rand dikte met kleur*/
 .button1 {
     background-color:#ffffff;
     border: 2px solid #ffffff;
