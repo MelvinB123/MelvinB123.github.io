@@ -35,13 +35,6 @@ p {
     color: #000000
 }
 
-.pwittetekst{
-    text-color: #ffffff;
-    background-color: #575757;
-    text-align: center;
-    font-family:"Bahnschrift";
-}
-
 /*lijst*/
 li {
     display: inline;
