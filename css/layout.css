@@ -17,7 +17,7 @@ body {
     background: #ffffff
 }
 
-/*tekst*/
+/*tekstkopjes*/
 h1 , h2 , h3, p {
     font-family:"Bahnschrift";
     text-indent: 10px;
@@ -37,7 +37,7 @@ p {
 }
 
 .pwittetekst{
-    color: #ffffff;
+    text-color: #ffffff;
     text-align: center;
     font-family:"Bahnschrift";
 }
