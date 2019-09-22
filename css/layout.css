@@ -28,9 +28,15 @@ li {
 
 ul li {font-variant: small-caps;}
 
-   
+/*hyperlink*/
 a { 
     color: #ffffff;
+    text-decoration:none;
+    text-shadow: 2xp 2xp 2xp #030303;
+}
+
+.hover2 { 
+    color: #000000;
     text-decoration:none;
     text-shadow: 2xp 2xp 2xp #030303;
 }
