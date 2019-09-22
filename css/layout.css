@@ -1,3 +1,4 @@
+/*achtergrond*/
 body {
     background-color: #ffffff;
 }
@@ -16,20 +17,39 @@ body {
     background: #ffffff
 }
 
+/*tekst*/
 h1 , h2 , h3, p {
     font-family:"Bahnschrift";
     text-indent: 10px;
     color: #000000;
 }
 
+h4 , h5{
+    font-family: "Bahnschrift";
+    text-indent: 10px;
+    color: #ffffff;
+}
+
+/*paragraaf*:
 p {
     color: #000000
 
 }
+
+.pwittetekst{
+    color: #ffffff;
+    text-align: center;
+    font-family:"Bahnschrift";
+}
+
+/*lijst*/
 li {
     display: inline;
     margin-left: 20px;
 }
+
+ul li {font-variant: small-caps;}
+
    
 a { 
     color: #ffffff;
@@ -42,7 +62,7 @@ a:hover{
     color:#979797;
 }
 
-/*images*/
+/*plaatjes*/
 .img3{
     float:left;
 }
@@ -59,7 +79,7 @@ a:hover{
     align: center;
 }
 
-/*divs*/
+/*divisions*/
 div{
     width:700px;
     height:100%;
@@ -107,24 +127,11 @@ div{
     padding: 10px;
 }
 
-ul li {font-variant: small-caps;}
-
+/*knop*/
 .button1 {
     background-color:#ffffff;
     border: 2px solid #ffffff;
 }
-
-h4 , h5{
-    font-family: "Bahnschrift";
-    text-indent: 10px;
-    color: #ffffff;
-}
-
-.poep{
-    align:left;
-    text-align:left;
-}
-
 
 .btn{
    cursor:pointer;
@@ -138,8 +145,8 @@ h4 , h5{
    @include transition(box-shadow .25s ease);
 }
 
-.pwittetekst{
-    color: #ffffff;
-    text-align: center;
-    font-family:"Bahnschrift";
+/*?*/
+.poep{
+    align:left;
+    text-align:left;
 }
